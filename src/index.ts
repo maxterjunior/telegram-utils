@@ -1,7 +1,5 @@
 import dotenv from 'dotenv'; dotenv.config()
 import { Telegraf } from 'telegraf'
-import path from 'path'
-import fs from 'fs'
 import { ExtraReplyMessage } from 'telegraf/typings/telegram-types';
 
 //* Configuraciones *//

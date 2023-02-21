@@ -1,0 +1,12 @@
+[Unit]
+Description=Bot Telegram Service
+After=network.target
+
+[Service]
+WorkingDirectory=/home/corall/telegram-bots/telegram-utils
+ExecStart=/usr/bin/npm start
+Restart=on-failure
+User=corall
+
+[Install]
+WantedBy=multi-user.target
